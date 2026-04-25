@@ -62,6 +62,8 @@ function filterAndRender() {
             l.niche.toLowerCase().includes(term) ||
             (l.location && l.location.toLowerCase().includes(term))
         );
+    }
+    
     // Update Title
     const titleEl = document.querySelector('.section-title h2');
     if (titleEl) {
